@@ -27,8 +27,23 @@
     -->
     <title>React App</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <style>
+    body, html {
+      height: 100%;
+    }
+    .parallax {
+      /* The image used */
+      background-image: url('images/star-wars-backgrounds-26.png');
+      /* Full height */
+      height: 100%; 
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+  <body  class="parallax">
     <div id="root"></div>
     <!--
       This HTML file is a template.

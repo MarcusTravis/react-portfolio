@@ -1,3 +1,6 @@
+# react-portfolio
+My bread and butter, my Portfolio made with the latest react technologies!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
