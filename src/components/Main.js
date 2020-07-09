@@ -11,10 +11,7 @@ export default function Main() {
                 <div className="col-12">
                     <About />
                 </div>
-                <PortfolioHeader/>
-                <div className="col-12">
-                    <Portfolio />
-                </div>
+                    <PortfolioHeader/>
                 <div className="col-12">
                     <Portfolio />
                 </div>
