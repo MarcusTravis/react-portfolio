@@ -3,6 +3,8 @@ My bread and butter, my Portfolio made with the latest react technologies!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deloyed Portfolio: https://marcustravis.github.io/react-portfolio/
+
 ## Available Scripts
 
 In the project directory, you can run:
