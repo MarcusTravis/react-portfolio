@@ -1,11 +1,11 @@
 import React from 'react'
-import weatherDash from '../images/weatherDash.PNG'
-import EmployeeDirectory from '../images/EmployeeDirectory.PNG'
-import EmployeeTracker from '../images/Employee-Tracker.PNG'
-import BudgetTracker from '../images/BudgetTracker.PNG'
-import Template from '../images/Template.PNG'
-import Fitness from '../images/Fitness.PNG'
-import "../App.css";
+import weatherDash from '../../images/weatherDash.PNG'
+import EmployeeDirectory from '../../images/EmployeeDirectory.PNG'
+import EmployeeTracker from '../../images/Employee-Tracker.PNG'
+import BudgetTracker from '../../images/BudgetTracker.PNG'
+import Template from '../../images/Template.PNG'
+import Fitness from '../../images/Fitness.PNG'
+import "./styles.css";
 
 export default function Card() {
 

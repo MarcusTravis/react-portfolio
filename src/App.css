@@ -1,3 +1,8 @@
+body,
+html {
+  height: 100%;
+}
+
 .bg-red {
   background-color: red;
 }
@@ -10,81 +15,12 @@
   background-color: black;
 }
 
-.About {
-  /* background-image: url("./images/Vader.jpg"); */
-  background-color: black;
-  opacity: 0.9;
-  /* height: 680px; */
-  margin-top: 100px;
-  font-size: 36px;
-}
-
-.Portfolio {
-  background-color: black;
-  opacity: 0.9;
-  /* height: 1180px; */
-  margin-bottom: 400px;
-}
-
-.mb-200 {
-  margin-bottom: 200px;
-}
-
-body,
-html {
-  height: 100%;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url("./images/star-wars-backgrounds-26.png");
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.profilePic {
-  background-image: url("./images/ProfilePic.png");
-  background-size: cover;
-  width: 480px;
-  height: 480px;
-}
-
-.card-img {
-  background-image: url("./images/LogoBlck.png");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 286px;
-  max-height: 200px;
-  width: auto;
-  height: 100%;
-}
-
-.box {
-  height: 320px;
-  width: 286px;
-}
-
-.cardMarginTop {
-  margin-top: 40px;
-}
-
-.cardWidth {
-  width: 18rem;
-}
-
 .btn-black {
   color: red;
   background-color: black;
   border-color: black;
 }
 
-.z-index {
-  z-index: 2;
+.mb-200 {
+  margin-bottom: 200px;
 }

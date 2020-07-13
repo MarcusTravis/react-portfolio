@@ -1,0 +1,40 @@
+.bg-red {
+    background-color: red;
+  }
+  
+  .text-red {
+    color: red;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .mb-200 {
+    margin-bottom: 200px;
+  }
+
+  .box {
+    height: 320px;
+    width: 286px;
+  }
+  
+  .cardMarginTop {
+    margin-top: 40px;
+  }
+  
+  .cardWidth {
+    width: 18rem;
+  }
+  
+.card-img {
+  background-image: url("../../images/LogoBlck.png");
+  background-color: black;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 286px;
+  max-height: 200px;
+  width: auto;
+  height: 100%;
+}

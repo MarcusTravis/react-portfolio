@@ -1,11 +1,9 @@
 import React from 'react'
-import Card from "./Card";
-
-import '../App.css'
-
+import Card from "../Card";
+import './styles.css'
 export default function Portfolio() {
     return (
-            <div className="row Portfolio">
+            <div className="row Portfolio pb-5">
                 <div className="col-12">
                     <Card />
                 </div>
