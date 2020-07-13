@@ -23,7 +23,9 @@ export default class MyForm extends React.Component {
           <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5">
             <div class="row">
               <div class="col m-2 h3 text-red">
+                <a id="ContactMe">
                 Contact Me
+                </a>
               </div>
             </div>
             <br />

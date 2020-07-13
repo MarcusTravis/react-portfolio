@@ -11,7 +11,7 @@ export default function About() {
                 <div className="col-lg-2 col-xl-3 p-0 d-flex flex-wrap align-content-center justify-content-center"><img src={mT1red} height="300px" width="auto"/></div>
                 <div className="col-lg-8 col-xl-6 col-md p-0 rounded-lg mt-5 mr-0 mb-5 ml-0 text-center">
                     <div className="row">
-                        <div className="col p-2 mb-0 text-red bg-black h3 rounded">About Me</div>
+                        <div className="col p-2 mb-0 text-red bg-black h3 rounded"><a id="AboutMe">About Me</a></div>
                     </div>
                     <div className="row">
                             <div className="col-lg-6 bg-black p-0 m-0 rounded">
