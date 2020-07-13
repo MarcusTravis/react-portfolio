@@ -2,6 +2,7 @@ import React from 'react';
 import About from '../About/index.js';
 import Portfolio from '../Portfolio';
 import PortfolioHeader from '../PortfolioHeader';
+import Contact from '../Contact';
 import './styles.css';
 
 export default function Main() {
@@ -10,6 +11,7 @@ export default function Main() {
             <About/>
             <PortfolioHeader />
             <Portfolio />
+            <Contact/>
         </div>
     )
 }
