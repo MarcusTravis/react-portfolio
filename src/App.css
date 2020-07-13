@@ -10,12 +10,9 @@
   background-color: black;
 }
 
-.navbarCustom {
-  opacity: 0.9;
-}
-
 .About {
-  background-image: url("./images/Vader.jpg");
+  /* background-image: url("./images/Vader.jpg"); */
+  background-color: black;
   opacity: 0.9;
   height: 680px;
   margin-top: 100px;
@@ -23,18 +20,10 @@
 }
 
 .Portfolio {
-  background-image: url("./images/storm.gif");
+  background-color: black;
   opacity: 0.9;
-  height: 680px;
-}
-
-.PortfolioCompliment {
-  background-image: url("./images/Jawa.gif");
-  opacity: 0.9;
-  height: 400px;
-  margin-top: 600px;
-  margin-bottom: 800px;
-  z-index: 0;
+  height: 1180px;
+  margin-bottom: 400px;
 }
 
 .header-mt {
@@ -65,25 +54,29 @@ html {
   height: 480px;
 }
 
-.bg-img-jawa {
-  /* background-image: url("./images/LogoBlck.png"); */
+.card-img {
+  background-image: url("./images/LogoBlck.png");
   background-color: black;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  max-width: 286px;
+  max-height: 200px;
+  width: auto;
+  height: 100%;
+}
+
+.box {
+  height: 320px;
+  width: 286px;
 }
 
 .cardMarginTop {
   margin-top: 40px;
-  z-index: 10;
 }
 
 .cardWidth {
   width: 18rem;
-}
-
-.card-img-top {
-  height: 200px;
 }
 
 .btn-black {
