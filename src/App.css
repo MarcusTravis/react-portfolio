@@ -24,3 +24,7 @@ html {
 .mb-200 {
   margin-bottom: 200px;
 }
+
+.opacity-90 {
+  opacity: .9;
+}
