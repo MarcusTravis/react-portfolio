@@ -17,7 +17,7 @@ export default class MyForm extends React.Component {
     return (
       <form onSubmit={this.submitForm} action="https://formspree.io/mnqgopvp" method="POST">
         {/* <!-- add your custom form HTML here --> */}
-        <Parallax bgImage={bgImage} strength={546}>
+        <Parallax bgImage={bgImage} strength={547}>
           <div className="row mb-200 bg-black opacity-50">
               <div class="col-lg-2 col-xl-3 p-0"></div>
           <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5">
