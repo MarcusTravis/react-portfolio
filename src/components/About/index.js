@@ -8,13 +8,7 @@ export default function About() {
     return (
         <Parallax bgImage={bgImage} strength={600}>
             <main class="About row mb-200">
-                <div class="col-lg-2 col-xl-3 p-0">
-                    <div className="row p-5">
-                        <div className="col">
-                            <Parallax bgImage={mT1red} strength={400}></Parallax>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-lg-2 col-xl-3 p-0"></div>
                 <div class="col-lg-8 col-xl-6 col-md p-0 rounded-lg mt-5 mr-0 mb-5 ml-0 text-center">
                     <div class="row">
                         <div class="col p-2 mb-0 text-red bg-black h3 rounded">About Me</div>
@@ -65,13 +59,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-xl-3 p-0">
-                <div className="row p-5">
-                        <div className="col">
-                            <Parallax bgImage={mT1red} strength={400}></Parallax>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-lg-2 col-xl-3 p-0"></div>
             </main>
         </Parallax>
     )
