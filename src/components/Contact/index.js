@@ -5,9 +5,9 @@ import './styles.css'
 
 export default function Contact() {
     return (
-      <Parallax bgImage={bgImage} strength={550}>
-        <div className="row mb-200 bg-black opacity-80">
-            <div class="col-lg-2 col-xl-3"></div>
+      <Parallax bgImage={bgImage} strength={536}>
+        <div className="row mb-200 bg-black opacity-50">
+            <div class="col-lg-2 col-xl-3 p-0"></div>
         <div class="col-lg-8 col-xl-6 rounded bg-black mt-5">
           <div class="row">
             <div class="col m-2 h3 text-red">
@@ -29,7 +29,7 @@ export default function Contact() {
           </p>
           <input type="submit" class="mb-4 bg-red"/>
         </div>
-        <div class="col-lg-2 col-xl-3"></div>
+        <div class="col-lg-2 col-xl-3 p-0"></div>
         </div>
       </Parallax>
     )

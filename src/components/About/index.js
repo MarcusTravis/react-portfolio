@@ -8,7 +8,7 @@ export default function About() {
         <Parallax bgImage={bgImage} strength={600}>
             <main class="About row mb-200">
                 <div class="col-lg-2 col-xl-3 p-0"></div>
-                <div class="col-lg-8 col-xl-6 col-md rounded-lg mt-5 mr-0 mb-5 ml-0 text-center">
+                <div class="col-lg-8 col-xl-6 col-md p-0 rounded-lg mt-5 mr-0 mb-5 ml-0 text-center">
                     <div class="row">
                         <div class="col p-2 mb-0 text-red bg-black h3 rounded">About Me</div>
                     </div>
@@ -47,11 +47,11 @@ export default function About() {
                         <div class="col pt-3 pb-3 rounded bg-black text-red border border-dark h4 text-center">
                             <div class="row">
                                 <div class="col-md-6">
-                                    You can find my LinkedIn
+                                    Check out my LinkedIn
                         <a class=" text-info mr-0" href="https://www.linkedin.com/in/marcustravis" > here!</a>
                                 </div>
                                 <div class="col-md-6">
-                                    You can find my Github
+                                    Check out my Github
                         <a class=" text-info mr-0" href="https://github.com/MarcusTravis" > here!</a>
                                 </div>
                             </div>
