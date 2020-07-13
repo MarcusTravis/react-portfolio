@@ -12,7 +12,7 @@ export default function Card() {
     const cardInfo = [
         { 
             image: EmployeeDirectory, 
-            title: "react-employee-directory", 
+            title: "React-Employee-Directory", 
             text: "A web page where users can view their entire employee directory at once so that they have quick access to their employee information.", 
             link: "https://github.com/MarcusTravis/react-employee-directory" 
         },

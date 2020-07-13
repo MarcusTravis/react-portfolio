@@ -7,14 +7,12 @@ import '../App.css'
 export default function Main() {
     return (
         <div className="container-fluid parallax p-0">
-            <div className="row no-gutters">
-                <div className="col-12">
-                    <About />
-                </div>
-                    <PortfolioHeader/>
-                <div className="col-12">
-                    <Portfolio />
-                </div>
+            <About/>
+            <div className="col-12">
+                <PortfolioHeader />
+            </div>
+            <div className="col-12">
+                <Portfolio />
             </div>
         </div>
     )
