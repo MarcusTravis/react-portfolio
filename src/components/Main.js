@@ -8,12 +8,8 @@ export default function Main() {
     return (
         <div className="container-fluid parallax p-0">
             <About/>
-            <div className="col-12">
-                <PortfolioHeader />
-            </div>
-            <div className="col-12">
-                <Portfolio />
-            </div>
+            <PortfolioHeader />
+            <Portfolio />
         </div>
     )
 }
