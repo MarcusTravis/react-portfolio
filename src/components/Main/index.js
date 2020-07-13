@@ -7,7 +7,7 @@ import './styles.css';
 
 export default function Main() {
     return (
-        <div className="container-fluid parallax">
+        <div className="container-fluid parallax p-0">
             <About/>
             <PortfolioHeader />
             <Portfolio />

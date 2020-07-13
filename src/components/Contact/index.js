@@ -1,8 +1,11 @@
 import React from 'react'
+import {Parallax} from 'react-parallax'
+import bgImage from '../../images/star-wars-backgrounds-26.png'
 import './styles.css'
 
 export default function Contact() {
     return (
+      <Parallax bgImage={bgImage} strength={550}>
         <div className="row mb-200 bg-black opacity-80">
             <div class="col-lg-2 col-xl-3"></div>
         <div class="col-lg-8 col-xl-6 rounded bg-black mt-5">
@@ -28,5 +31,6 @@ export default function Contact() {
         </div>
         <div class="col-lg-2 col-xl-3"></div>
         </div>
+      </Parallax>
     )
 }
