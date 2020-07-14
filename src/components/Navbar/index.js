@@ -6,7 +6,9 @@ export default function Navbar() {
             <div className="row">
                 <header className="col-md-2  text-center pt-2 pb-1 bg-red">
                     <p title="I love webdev!" className="h3">
+                        <a id="Top">
                         Marcus Travis
+                        </a>
                     </p>
                 </header>
                 <div className="col-md-10 pt-2 pb-1 bg-black ml-auto text-lg-right text-center">

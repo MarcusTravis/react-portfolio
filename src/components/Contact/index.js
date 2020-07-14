@@ -17,8 +17,8 @@ export default class MyForm extends React.Component {
     return (
       <form onSubmit={this.submitForm} action="https://formspree.io/mnqgopvp" method="POST">
         {/* <!-- add your custom form HTML here --> */}
-        <Parallax bgImage={bgImage} strength={547}>
-          <div className="row mb-200 bg-black opacity-50">
+        <Parallax bgImage={bgImage} strength={514}>
+          <div className="row mb-cust bg-black opacity-50">
               <div class="col-lg-2 col-xl-3 p-0"></div>
           <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5">
             <div class="row">
@@ -41,7 +41,7 @@ export default class MyForm extends React.Component {
             <p>
               <textarea class="pl-0 pt-0 w-100 rounded" rows="6" cols="50" name="message" type="text" placeholder="  Enter text here..."></textarea>
             </p>
-          {status === "SUCCESS" ? <p className="h5 text-white">Form has been submitted, Thanks!</p> : <button className="pl-5 pr-5 button rounded text-red bg-black">Submit</button>}
+          {status === "SUCCESS" ? <p className="h5 text-white">Form has been submitted, Thanks!</p> : <button className="col-12 h5 p-2 pl-5 pr-5 button rounded text-red bg-black">Submit</button>}
           {status === "ERROR" && <p className="h5 text-white">Ooops! There was an error.</p>}
           </div>
           <div class="col-lg-2 col-xl-3 p-0"></div>

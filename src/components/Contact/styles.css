@@ -1,9 +1,13 @@
 .inputCustom {
-    border-radius: 10px;
-    padding: 15px;
-    width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
 }
 
 .opacity-80 {
-    opacity: .8;
+  opacity: 0.8;
+}
+
+.mb-cust {
+  margin-bottom: 145px;
 }

@@ -18,7 +18,7 @@ export default function About() {
                                 <img className="img-fluid rounded profilePic" alt="" />
                             </div>
                         <div className="col-lg-6 pt-3 pr-5 pb-3 pl-5 m-0 rounded bg-black text-red border border-dark h5">
-                            I'm an entry level Web Developer trying to get my foot in the door.
+                            I'm a Full Stack Web Developer trying to get my foot in the door.
                             I'm currently coding in a University of Arizona coding bootcamp focusing
                             on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime you can
                             see what projects I'm working on by checking out my Github repositories
