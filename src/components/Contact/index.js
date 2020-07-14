@@ -34,12 +34,12 @@ export default class MyForm extends React.Component {
             </label>
             <br />
             <label class="text-red">
-              Email: <input class="rounded" type="email" name="email"/>
+              Email:  <input class="rounded" type="email" name="email"/>
             </label>
             <br />
             <p class="text-red">Message:</p>
             <p>
-              <textarea class="pl-0 pt-0 w-100 rounded" rows="6" cols="50" name="message" type="text" placeholder="  Enter text here..."></textarea>
+              <textarea class="pl-0 pt-0 w-100 rounded" rows="6" cols="50" name="message" type="text" placeholder="  Message me and add your company info here!"></textarea>
             </p>
           {status === "SUCCESS" ? <p className="h5 text-white">Form has been submitted, Thanks!</p> : <button className="col-12 h5 p-2 pl-5 pr-5 button rounded text-red bg-black">Submit</button>}
           {status === "ERROR" && <p className="h5 text-white">Ooops! There was an error.</p>}
