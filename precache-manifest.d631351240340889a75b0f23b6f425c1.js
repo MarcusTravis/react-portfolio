@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "638db84b1433cb20d4768929dbb02e94",
+    "revision": "67e2c26d5b351ebb580bbbb16a4dd36b",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "d7f9cb9ee513a8e2ae68",
+    "revision": "a85e7f71b3749c32399d",
     "url": "/react-portfolio/static/css/main.994a39f0.chunk.css"
   },
   {
-    "revision": "73d8ba393e59e102910b",
-    "url": "/react-portfolio/static/js/2.ab373755.chunk.js"
+    "revision": "f603c2ac838e996fd8b3",
+    "url": "/react-portfolio/static/js/2.4bd60705.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-portfolio/static/js/2.ab373755.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.4bd60705.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7f9cb9ee513a8e2ae68",
-    "url": "/react-portfolio/static/js/main.fc803a4f.chunk.js"
+    "revision": "a85e7f71b3749c32399d",
+    "url": "/react-portfolio/static/js/main.7dd9ed3e.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -52,8 +52,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Template.da2c6f6e.PNG"
   },
   {
+    "revision": "1f851630df640828e3d1bb4cfff4c011",
+    "url": "/react-portfolio/static/media/css-logo.1f851630.png"
+  },
+  {
+    "revision": "730d0d478d275e1e670527a048a2b713",
+    "url": "/react-portfolio/static/media/git-logo.730d0d47.jpg"
+  },
+  {
+    "revision": "5cfdd2a11294bb423431d7ade65f72bd",
+    "url": "/react-portfolio/static/media/github-icon.5cfdd2a1.png"
+  },
+  {
+    "revision": "7745781005bef63cf4a69785bb86beb9",
+    "url": "/react-portfolio/static/media/js-logo.77457810.png"
+  },
+  {
     "revision": "2443f8f822c186b8f1319c534bc3c388",
     "url": "/react-portfolio/static/media/mT1red.2443f8f8.png"
+  },
+  {
+    "revision": "4c9f4564cd4c380cf327d4d93c121faa",
+    "url": "/react-portfolio/static/media/mongodb-logo.4c9f4564.png"
+  },
+  {
+    "revision": "e91ce9398fe8b1aca84aa46eaac5b72d",
+    "url": "/react-portfolio/static/media/mysql-logo.e91ce939.png"
+  },
+  {
+    "revision": "90a7a88d73315e97644e9e0f00c67461",
+    "url": "/react-portfolio/static/media/nodejs-logo.90a7a88d.png"
   },
   {
     "revision": "f4d9e84b510f132f4cdc9d6515ec8195",
