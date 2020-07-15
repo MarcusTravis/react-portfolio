@@ -60,11 +60,11 @@ export default function About() {
                         <div className="col pt-3 pb-3 rounded bg-black text-red border border-dark h4 text-center">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img src={giticon} height="48px" className="mr-2 mb-2"/>Check out my LinkedIn
+                                    <img src={linkedicon} height="48px" className="mr-2 mb-2"/>Check out my LinkedIn
                         <a className=" text-info mr-0" href="https://www.linkedin.com/in/marcustravis" > here!</a>
                                 </div>
                                 <div className="col-md-6">
-                                    <img src={linkedicon} height="48px" className="mr-2 mb-2"/>Check out my Github
+                                    <img src={giticon} height="48px" className="mr-2 mb-2"/>Check out my Github
                         <a className=" text-info mr-0" href="https://github.com/MarcusTravis" > here!</a>
                                 </div>
                             </div>
