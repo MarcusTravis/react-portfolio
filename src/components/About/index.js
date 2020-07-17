@@ -1,6 +1,7 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
 import Tilt from 'react-parallax-tilt'
+import AboutHeader from '../AboutHeader'
 import bgImage from '../../images/star-wars-backgrounds-26.png'
 import profilePic from '../../images/ProfilePic.png'
 import mT1red from '../../images/mtlogoWht.png'
@@ -19,18 +20,17 @@ import './styles.css'
 
 export default function About() {
     return (
-        <Parallax bgImage={bgImage} strength={600}>
-            <Tilt><main className="About row mr-0 ml-0 mb-200">
-                <div className="col-lg-2 col-xl-3 p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
-                <div className="col-lg-8 col-xl-6 col-md p-0 rounded-lg mr-0 mb-5 ml-0 text-center">
-                    <div className="row">
-                        <div className="col nosifer p-2 m-3 text-white bg-black h3 rounded"><Tilt><a id="AboutMe" href="#" className="text-white">About Me</a></Tilt></div>
-                    </div>
-                    <div className="row">
+        <Parallax bgImage={bgImage} strength={700}>
+            <Tilt>
+            <AboutHeader />
+                <main className="row mb-200">
+                <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
+                <div className="col-lg-8 col-xl-6 About p-0 rounded mr-0 ml-0 text-center">
+                    <div className="row pl-0 pr-0 ml-0 mr-0">
                         <div className="col-lg-6 bg-black border border-white rounded d-flex align-items-center p-0">
                             <Tilt><img className="img-fluid rounded" src={profilePic} alt="" /></Tilt>
                         </div>
-                        <div className="col-lg-6 rose pt-3 pr-5 pb-3 pl-5 m-0 rounded bg-black text-white border border-white h5">
+                        <div className="col-lg-6 rose rounded bg-black text-white border border-white h5">
                             <Tilt>
                                 I'm a Full Stack Web Developer trying to get my foot in the door.
                                 I'm currently coding in a University of Arizona coding bootcamp focusing
@@ -60,8 +60,8 @@ export default function About() {
                             </Tilt>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col pb-2 rounded bg-white border border-dark h4 text-center">
+                    <div className="row pl-0 pr-0 ml-0 mr-0">
+                        <div className="col pb-2 rounded bg-white h4 text-center">
                             <div className="row">
                                 <div className="col-md-6">
                                     <Tilt>
@@ -79,7 +79,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-2 col-xl-3 p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
+                <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
             </main></Tilt>
         </Parallax>
     )

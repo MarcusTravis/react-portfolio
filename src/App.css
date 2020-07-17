@@ -21,6 +21,10 @@ html {
   border-color: black;
 }
 
+.mb-300 {
+  margin-bottom: 300px;
+}
+
 .mb-200 {
   margin-bottom: 200px;
 }

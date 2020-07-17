@@ -2,7 +2,6 @@
     /* The image used */
     background-image: url("../../images/star-wars-backgrounds-26.png");
     /* Full height */
-    height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
