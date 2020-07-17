@@ -20,7 +20,7 @@ import './styles.css'
 export default function About() {
     return (
         <Parallax bgImage={bgImage} strength={600}>
-            <Tilt><main className="About row mb-200">
+            <Tilt><main className="About row mr-0 ml-0 mb-200">
                 <div className="col-lg-2 col-xl-3 p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
                 <div className="col-lg-8 col-xl-6 col-md p-0 rounded-lg mr-0 mb-5 ml-0 text-center">
                     <div className="row">

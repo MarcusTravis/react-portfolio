@@ -6,7 +6,7 @@ import './styles.css'
 export default function Footer() {
     return (
         <Tilt>
-            <div className="row">
+            <div className="row p-0 m-0">
                 <a href="#Top" className="col-12 nosifer p-2 mt-3 h4 text-center border border-secondary rounded text-white bg-black">Back to Top</a>
             </div>
         </Tilt>
