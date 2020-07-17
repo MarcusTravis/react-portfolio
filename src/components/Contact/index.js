@@ -22,26 +22,26 @@ export default class MyForm extends React.Component {
               <div class="col-lg-2 col-xl-3 p-0"></div>
           <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5">
             <div class="row">
-              <div class="col m-2 h3 text-red">
-                <a id="ContactMe">
+              <div class="col m-2 text-center">
+                <a id="ContactMe" href="#" className="nosifer h3 text-white">
                 Contact Me
                 </a>
               </div>
             </div>
             <br />
-            <label class="text-red">
+            <label class="text-white nosifer mb-3">
               Name: <input class="rounded" name="name" type="text"/>
             </label>
             <br />
-            <label class="text-red">
+            <label class="text-white nosifer mb-3">
               Email:  <input class="rounded" type="email" name="email"/>
             </label>
             <br />
-            <p class="text-red">Message:</p>
+            <p class="text-white nosifer">Message:</p>
             <p>
               <textarea class="pl-0 pt-0 w-100 rounded" rows="6" cols="50" name="message" type="text" placeholder="  Message me and add your company info here!"></textarea>
             </p>
-          {status === "SUCCESS" ? <p className="h5 text-white">Form has been submitted, Thanks!</p> : <button className="col-12 h5 p-2 pl-5 pr-5 button rounded text-red bg-black">Submit</button>}
+          {status === "SUCCESS" ? <p className="h5 text-white">Form has been submitted, Thanks!</p> : <button className="col-12 h4 p-2 pl-5 pr-5 button rounded bg-black"><a href="#" className="text-white nosifer">Submit</a></button>}
           {status === "ERROR" && <p className="h5 text-white">Ooops! There was an error.</p>}
           </div>
           <div class="col-lg-2 col-xl-3 p-0"></div>
