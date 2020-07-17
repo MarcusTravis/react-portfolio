@@ -1,33 +1,30 @@
 .About {
-    background-color: black;
-    opacity: 0.9;
-    margin-top: 100px;
-    font-size: 36px;
-  }
+  background-color: black;
+  opacity: 0.9;
+  margin-top: 100px;
+  font-size: 36px;
+}
 
-  .bg-red {
-    background-color: red;
-  }
-  
-  .text-red {
-    color: red;
-  }
-  
-  .text-black {
-    color: black;
-  }
+.bg-red {
+  background-color: red;
+}
 
-  .bg-black {
-    background-color: black;
-  }
-  
-  .mb-200 {
-    margin-bottom: 200px;
-  }
-  
+.text-red {
+  color: red;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
 .profilePic {
-  background-image: url("../../images/ProfilePic.png");
-  background-size: cover;
-  width: 480px;
-  height: 480px;
+  background-position: center;
 }

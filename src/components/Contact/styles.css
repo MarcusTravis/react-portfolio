@@ -11,3 +11,15 @@
 .mb-cust {
   margin-bottom: 145px;
 }
+
+input:focus {
+  background-color: black;
+  color: white;
+  outline: 5px solid darkred;  
+}
+
+textarea:focus {
+  background-color: black;
+  color: white;
+  outline: 5px solid darkred;  
+}
