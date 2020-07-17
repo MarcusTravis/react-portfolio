@@ -5,6 +5,7 @@ import EmployeeTracker from '../../images/Employee-Tracker.PNG'
 import BudgetTracker from '../../images/BudgetTracker.PNG'
 import Template from '../../images/Template.PNG'
 import Fitness from '../../images/Fitness.PNG'
+import gitIcon from '../../images/github-icon.png'
 import "./styles.css";
 
 export default function Card() {
@@ -54,9 +55,9 @@ export default function Card() {
                 <div className="card cardWidth cardMarginTop bg-dark  pl-0 pr-0" key={index}>
                     <img src={card.image} className="card-img border border-rounded " alt=""></img>
                     <div className="card-body text-center box d-flex flex-column">
-                        <div className="card-title text-red h4">{card.title}</div>
-                        <div className="card-text text-red h5">{card.text}</div>
-                        <a href={card.link} className="btn btn-black mt-auto">GitHub Repo</a>
+                        <div className="card-title text-white h5 nosifer">{card.title}</div>
+                        <div className="card-text text-white h5 rose">{card.text}</div>
+                        <a href={card.link} className="btn btn-black text-white mt-auto"><img src={gitIcon} height="20px" className="mb-1 mr-2"></img>GitHub Repo</a>
                     </div>
                 </div>
             </div>

@@ -28,3 +28,16 @@ html {
 .opacity-50 {
   background: rgba(0, 0, 0, 0.5);
 }
+
+.nosifer {
+  font-family: "Nosifer", cursive;
+}
+
+.rose {
+  font-family: "Red Rose", cursive;
+}
+
+a:hover {
+  color: darkred !important;
+  text-decoration: underline;
+}
