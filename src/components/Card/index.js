@@ -15,13 +15,13 @@ export default function Card() {
         {
             image: EmployeeDirectory,
             title: "React-Employee-Directory",
-            text: "A web page where users can view their entire employee directory at once so that they have quick access to their employee information.",
+            text: "A web page where users can view their entire employee directory at once, so they have quick access to their employee information.",
             link: "https://github.com/MarcusTravis/react-employee-directory"
         },
         {
             image: EmployeeTracker,
             title: "Employee-Tracker",
-            text: "Employee Tracker to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.",
+            text: "Employee Tracker to architect and build a solution for managing your company's employees using node, inquirer, and MySQL.",
             link: "https://github.com/MarcusTravis/Employee-Tracker"
         },
         {
@@ -33,7 +33,7 @@ export default function Card() {
         {
             image: Template,
             title: "Template-Engine-Employee-Summary",
-            text: "This is an OOP-demo for the homework required in the OOP section of the code bootcamp from UofA",
+            text: "This is a Node CLI (Command-line interface) that takes in information about employees and generates an HTML webpage that displays summaries for each person.",
             link: "https://github.com/MarcusTravis/Template-Engine-Employee-Summary"
         },
         {
@@ -45,7 +45,7 @@ export default function Card() {
         {
             image: weatherDash,
             title: "Weather-Dashboard",
-            text: "A Weather Dashboard where you can find a 5 day weather forecast and other info based on the city you search for.",
+            text: "This is Weather Dashboard where you can find a 5 day weather forecast, and other info based on the city you searched.",
             link: "https://github.com/MarcusTravis/Workout-Tracker"
         }
     ]

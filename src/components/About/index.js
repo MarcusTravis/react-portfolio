@@ -34,9 +34,9 @@ export default function About() {
                             <Tilt>
                                 I'm a Full Stack Web Developer trying to get my foot in the door.
                                 I'm currently coding in a University of Arizona coding bootcamp focusing
-                                on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime you can
-                                see what projects I'm working on by checking out my Github repositories
-                                by clicking the link below!
+                                on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime, you can
+                                see what projects I'm working on by checking out my Github repositories.
+                                Just click the link below!
                         <br />
                                 <br />
                         Areas of Expertise:
