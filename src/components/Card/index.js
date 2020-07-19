@@ -52,18 +52,20 @@ export default function Card() {
 
     const renderCard = (card, index) => {
         return (
-                <div className="col-md-3 offset-1 d-inline-block pl-0 pr-0">
-                    <Tilt>
-                        <div className="card cardWidth cardMarginTop bg-dark  pl-0 pr-0" key={index}>
-                            <img src={card.image} className="card-img border border-rounded " alt=""></img>
-                            <div className="card-body text-center box d-flex flex-column">
-                                <div className="card-title text-white h5 nosifer">{card.title}</div>
-                                <div className="card-text text-white h5 rose">{card.text}</div>
-                                <Tilt><a href={card.link} className="btn btn-black text-white mt-auto rose"><img src={gitIcon} height="30px" className="mb-1 mr-2"></img>GitHub Repo</a></Tilt>
-                            </div>
+            <div className="col-md-3 offset-1 d-inline-block pl-0 pr-0 ">
+                <Tilt>
+                    <div className="card cardWidth cardMarginTop bg-dark pb-2 pl-0 pr-0" key={index}>
+                        <img src={card.image} className="card-img border border-rounded " alt=""></img>
+                        <div className="card-body text-center box d-flex flex-column">
+                            <div className="card-title text-white h5 nosifer">{card.title}</div>
+                            <div className="card-text text-white h5 rose">{card.text}</div>
                         </div>
+                    <Tilt>
+                        <div className="height-auto pl-6"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1 mr-2"></img>GitHub Repo</a></div>
                     </Tilt>
-                </div>
+                    </div>
+                </Tilt>
+            </div>
         )
     }
 
