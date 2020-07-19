@@ -41,9 +41,9 @@ N/A
 Thanks to the Teachers and class mates of UofA Full Stack Webdev Bootcamp
 
 
+## React Info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## React Info
 ## Available Scripts
 
 In the project directory, you can run:
