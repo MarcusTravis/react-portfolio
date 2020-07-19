@@ -32,8 +32,8 @@ export default function Card() {
         },
         {
             image: Template,
-            title: "Template-Engine-Employee-Summary",
-            text: "This is a Node CLI (Command-line interface) which takes in information about employees, and generates an HTML webpage that displays summaries for each person.",
+            title: "Employee-Summary-CLI",
+            text: "This is a Node CLI which takes in information about employees, and generates an HTML webpage that displays summaries for each person.",
             link: "https://github.com/MarcusTravis/Template-Engine-Employee-Summary"
         },
         {
