@@ -24,7 +24,7 @@
   }
   
   .cardWidth {
-    width: 18rem;
+    width: 20rem;
   }
   
 .card-img {
@@ -33,7 +33,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 286px;
+  max-width: 20rem;
   max-height: 200px;
   width: auto;
   height: 100%;
@@ -45,5 +45,5 @@
 }
 
 .pl-6 {
-  padding-left: 3.8rem !important;
+  padding-left: 4.8rem !important;
 }

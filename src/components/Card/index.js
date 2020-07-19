@@ -54,9 +54,9 @@ export default function Card() {
         return (
             <div className="col-md-3 offset-1 d-inline-block pl-0 pr-0 ">
                 <Tilt>
-                    <div className="card cardWidth cardMarginTop bg-dark pb-2 pl-0 pr-0" key={index}>
+                    <div className="card cardWidth cardMarginTop bg-dark pb-2 pl-0 pr-0 text-center" key={index}>
                         <img src={card.image} className="card-img border border-rounded " alt=""></img>
-                        <div className="card-body text-center box d-flex flex-column">
+                        <div className="card-body box d-flex flex-column ml-3">
                             <div className="card-title text-white h5 nosifer">{card.title}</div>
                             <div className="card-text text-white h5 rose">{card.text}</div>
                         </div>
