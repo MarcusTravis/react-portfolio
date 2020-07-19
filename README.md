@@ -1,10 +1,49 @@
-# react-portfolio
-My bread and butter, my Portfolio made with the latest react technologies!
+ 
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
 ## Deloyed Portfolio: https://marcustravis.github.io/react-portfolio/
 
+## Table of Contents
+
+* [Description](#description)
+* [Built With](#built-with)
+* [Authors](#authors)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+* [React Info](#react-info)
+
+## Description
+
+My bread and butter, my Portfolio made with the latest react technologies!
+
+## Built With
+
+* React.js
+* JSX
+* Bootstrap
+* Googlefonts
+* JavaScript
+* HTML
+* CSS
+
+## Authors
+
+**Marcus Travis**
+
+## License
+
+N/A
+
+## Acknowledgments
+
+Thanks to the Teachers and class mates of UofA Full Stack Webdev Bootcamp
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## React Info
 ## Available Scripts
 
 In the project directory, you can run:
