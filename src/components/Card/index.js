@@ -16,37 +16,43 @@ export default function Card() {
             image: EmployeeDirectory,
             title: "React-Employee-Directory",
             text: "A web page where users can view their entire employee directory at once, so they have quick access to their employee information.",
-            link: "https://github.com/MarcusTravis/react-employee-directory"
+            repo: "https://github.com/MarcusTravis/react-employee-directory",
+            deploy: "https://marcustravis.github.io/react-employee-directory/"
         },
         {
             image: EmployeeTracker,
             title: "Employee-Tracker",
             text: "Employee Tracker to architect and build a solution for managing your company's employees using node, inquirer, and MySQL.",
-            link: "https://github.com/MarcusTravis/Employee-Tracker"
+            repo: "https://github.com/MarcusTravis/Employee-Tracker",
+            deploy: "https://github.com/MarcusTravis/Employee-Tracker/blob/master/public/images/employee-tracker-gif.gif"
         },
         {
             image: BudgetTracker,
             title: "Online-Offline-Budget-Tracker",
             text: "Made w/Node.js, MongoDB, Mongoose, and Express. Users can add expenses and deposits to their budget with or without internet.",
-            link: "https://github.com/MarcusTravis/Online-Offline-Budget-Tracker"
+            repo: "https://github.com/MarcusTravis/Online-Offline-Budget-Tracker",
+            deploy: "https://desolate-scrubland-50344.herokuapp.com/"
         },
         {
             image: Template,
             title: "Employee-Summary-CLI",
             text: "This is a Node CLI which takes in information about employees, and generates an HTML webpage that displays summaries for each person.",
-            link: "https://github.com/MarcusTravis/Template-Engine-Employee-Summary"
+            repo: "https://github.com/MarcusTravis/Template-Engine-Employee-Summary",
+            deploy: "https://github.com/MarcusTravis/Employee-Summary-CLI/blob/master/Develop/images/TeamGIF.gif"
         },
         {
             image: Fitness,
             title: "Workout-Tracker",
             text: "Built w/MongoDB, Node.js, HTML5, and CSS. View, create, and track daily workouts. Users can log multiple exercises in a workout on a given day.",
-            link: "https://github.com/MarcusTravis/Workout-Tracker"
+            repo: "https://github.com/MarcusTravis/Workout-Tracker",
+            deploy: "https://arcane-tor-74753.herokuapp.com/"
         },
         {
             image: weatherDash,
             title: "Weather-Dashboard",
             text: "This is Weather Dashboard where you can find a 5 day weather forecast, and other info based on the city you searched.",
-            link: "https://github.com/MarcusTravis/Workout-Tracker"
+            repo: "https://github.com/MarcusTravis/Weather-Dashboard",
+            deploy: "https://marcustravis.github.io/Weather-Dashboard/"
         }
     ]
 
@@ -61,8 +67,8 @@ export default function Card() {
                             <div className="card-text text-white h5 rose">{card.text}</div>
                         </div>
                         <Tilt>
-                            <div className="height-auto pl-1"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>GitHub Repo</a></div>
-                            <div className="height-auto pl-9"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>Deployed</a></div>
+                            <div className="height-auto pl-1"><a href={card.repo} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>GitHub Repo</a></div>
+                            <div className="height-auto pl-9"><a href={card.deploy} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>Deployed</a></div>
                         </Tilt>
                     </div>
                 </Tilt>
