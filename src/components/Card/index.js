@@ -60,9 +60,10 @@ export default function Card() {
                             <div className="card-title text-white h5 nosifer">{card.title}</div>
                             <div className="card-text text-white h5 rose">{card.text}</div>
                         </div>
-                    <Tilt>
-                        <div className="height-auto pl-6"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1 mr-2"></img>GitHub Repo</a></div>
-                    </Tilt>
+                        <Tilt>
+                            <div className="height-auto pl-1"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>GitHub Repo</a></div>
+                            <div className="height-auto pl-9"><a href={card.link} className="btn btn-black text-white rose"><img src={gitIcon} height="30px" className="mb-1"></img>Deployed</a></div>
+                        </Tilt>
                     </div>
                 </Tilt>
             </div>
