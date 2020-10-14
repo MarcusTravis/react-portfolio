@@ -25,7 +25,7 @@ export default class MyForm extends React.Component {
               <div class="row">
                 <div class="col m-2 text-center">
                   <Tilt>
-                    <a id="ContactMe" href="#" className="nosifer h3 text-white">Contact Me</a>
+                    <a id="ContactMe" href="https://mail.google.com/" className="nosifer h3 text-white border border-primary border-0">Contact Me here or email me at mpt789@gmail.com</a>
                   </Tilt>
                 </div>
               </div>
