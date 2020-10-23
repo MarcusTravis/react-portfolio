@@ -32,10 +32,8 @@ export default function About() {
                             </div>
                             <div className="col-lg-6 height mb-0 pt-2 rose rounded bg-black text-white border border-white h5">
                                 <Tilt>
-                                    I'm a Full Stack Web Developer trying to get my foot in the door.
-                                    I'm currently coding in a University of Arizona coding bootcamp focusing
-                                    on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime, you can
-                                    see what projects I'm working on by checking out my Github repositories.
+                                    I'm a Full Stack Web Developer currently working on a computer science bachelor's degree.
+                                    I'm a recent Graduate at the University of Arizona Full Stack coding Bootcamp focusing on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime, you can see what projects I'm working on by checking out my Github repositories.
                                     Just click the link below!
                         <br />
                                     <br />
