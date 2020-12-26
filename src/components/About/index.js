@@ -20,17 +20,18 @@ import './styles.css'
 
 export default function About() {
     return (
-        <Parallax bgImage={bgImage} strength={700}>
+        // bgImage={bgImage}
+        <Parallax strength={700}>
             <Tilt>
                 <AboutHeader />
                 <main className="row mb-200">
-                    <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
-                    <div className="col-lg-8 col-xl-6 About p-0 rounded mr-0 ml-0 text-center">
+                    <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center border border-white"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
+                    <div className="col-lg-8 col-xl-6 About p-0 rounded mr-0 ml-0 text-center height641">
                         <div className="row pl-0 pr-0 ml-0 mr-0">
-                            <div className="col-lg-6 bg-black border border-white rounded d-flex align-items-center p-0">
+                            <div className="col-lg-6 border border-white rounded d-flex align-items-center p-0">
                                 <Tilt><img className="img-fluid rounded" src={profilePic} alt="" /></Tilt>
                             </div>
-                            <div className="col-lg-6 height mb-0 pt-2 rose rounded bg-black text-white border border-white h5">
+                            <div className="col-lg-6 height mb-0 pt-2 rose rounded text-white border border-white h5">
                                 <Tilt>
                                     I'm a Full Stack Web Developer currently working on a Bachelor's Degree in Computer Science.
                                     I'm a recent Graduate at the University of Arizona Full Stack coding Bootcamp focusing on React.js, Github, Node.js, MySQL, and MongoDB. In the meantime, you can see what projects I'm working on by checking out my Github repositories.
@@ -60,18 +61,18 @@ export default function About() {
                         </div>
                         <Tilt>
                             <div className="row pl-0 pr-0 ml-0 mr-0">
-                                <div className="col pb-2 rounded bg-white h4 text-center">
+                                <div className="col pb-4 rounded h4 text-center border border-white">
                                     <div className="row">
                                         <div className="col-md-6">
                                             <Tilt>
                                                 <img src={linkedicon} height="48px" className="mr-2 mb-2 mt-4" />
-                                                <a className="nosifer text-black mr-0" href="https://www.linkedin.com/in/marcustravis" >Check out my LinkedIn here!</a>
+                                                <a className="nosifer text-white mr-0" href="https://www.linkedin.com/in/marcustravis" >Check out my LinkedIn here!</a>
                                             </Tilt>
                                         </div>
                                         <div className="col-md-6">
                                             <Tilt>
                                                 <img src={giticon} height="48px" className="mr-2 mb-2 mt-4" />
-                                                <a className="nosifer text-black mr-0" href="https://github.com/MarcusTravis" >Check out my Github here!</a>
+                                                <a className="nosifer text-white mr-0" href="https://github.com/MarcusTravis" >Check out my Github here!</a>
                                             </Tilt>
                                         </div>
                                     </div>
@@ -79,7 +80,7 @@ export default function About() {
                             </div>
                         </Tilt>
                     </div>
-                    <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
+                    <div className="col-lg-2 col-xl-3 About p-0 d-flex flex-wrap align-content-center justify-content-center border border-white"><Tilt><img src={mT1red} height="300px" width="auto" /></Tilt></div>
                 </main></Tilt>
         </Parallax>
     )

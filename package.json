@@ -7,11 +7,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "particles.js": "^2.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-parallax": "^3.0.3",
     "react-parallax-hover": "^2.0.1",
     "react-parallax-tilt": "^1.4.58",
+    "react-particles-js": "^3.4.1",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1"
   },

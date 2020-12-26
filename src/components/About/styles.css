@@ -1,6 +1,4 @@
 .About {
-  background-color: black;
-  opacity: 0.9;
   font-size: 36px;
 }
 
@@ -28,6 +26,6 @@
   background-position: center;
 }
 
-.height {
-  
+.height641 {
+  height: 641px;
 }

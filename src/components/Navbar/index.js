@@ -10,7 +10,7 @@ export default function Navbar() {
                         <Tilt><a id="Top">Marcus Travis</a></Tilt>
                         </p>
                     </header>
-                    <div className="col-md-9 nosifer pt-2 pb-1 bg-black ml-auto text-lg-right text-center">
+                    <div className="col-md-9 nosifer pt-3 pb-2 ml-auto text-lg-right text-center">
                         <div className="bg-black rounded h3 d-inline-block pt-1 mr-5"><Tilt><a className="text-white" href="#AboutMe">About Me</a></Tilt></div>
                         <div className="bg-black rounded h3 d-inline-block pt-1 mr-5"><Tilt><a className="text-white" href="#Projects">Projects</a></Tilt></div>
                         <div className="bg-black rounded h3 d-inline-block pt-1"><Tilt><a className=" text-white mr-0" href="#ContactMe">Contact Me</a></Tilt></div>

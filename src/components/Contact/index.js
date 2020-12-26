@@ -1,7 +1,5 @@
 import React from 'react'
-import { Parallax } from 'react-parallax'
 import Tilt from 'react-parallax-tilt'
-import bgImage from '../../images/star-wars-backgrounds-26.png'
 import './styles.css'
 
 export default class MyForm extends React.Component {
@@ -18,10 +16,9 @@ export default class MyForm extends React.Component {
     return (
       <form onSubmit={this.submitForm} action="https://formspree.io/mnqgopvp" method="POST">
         {/* <!-- add your custom form HTML here --> */}
-        <Parallax bgImage={bgImage} strength={514}>
           <div className="row mb-cust bg-black opacity-50">
             <div class="col-lg-2 col-xl-3 p-0"></div>
-            <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5">
+            <div class="col-lg-8 col-xl-6 rounded bg-black mt-5 mb-5 border border-white">
               <div class="row">
                 <div class="col m-2 text-center">
                   <Tilt>
@@ -51,7 +48,6 @@ export default class MyForm extends React.Component {
             </div>
             <div class="col-lg-2 col-xl-3 p-0"></div>
           </div>
-        </Parallax>
       </form>
     );
   }
