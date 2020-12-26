@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.177914d0.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.57f95f9a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.57f95f9a.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.11181eaf.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.03dce7cd.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.03dce7cd.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.8a7d631b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.8a7d631b.js.map",
-    "static/js/2.42a32663.chunk.js": "/react-portfolio/static/js/2.42a32663.chunk.js",
-    "static/js/2.42a32663.chunk.js.map": "/react-portfolio/static/js/2.42a32663.chunk.js.map",
+    "static/js/2.35eba216.chunk.js": "/react-portfolio/static/js/2.35eba216.chunk.js",
+    "static/js/2.35eba216.chunk.js.map": "/react-portfolio/static/js/2.35eba216.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.1bf566f3584c002d4affe693b7b2d912.js": "/react-portfolio/precache-manifest.1bf566f3584c002d4affe693b7b2d912.js",
+    "precache-manifest.9d535fa3fd940bf86a589d25e795d186.js": "/react-portfolio/precache-manifest.9d535fa3fd940bf86a589d25e795d186.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.177914d0.chunk.css.map": "/react-portfolio/static/css/main.177914d0.chunk.css.map",
-    "static/js/2.42a32663.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.42a32663.chunk.js.LICENSE.txt",
+    "static/css/main.11181eaf.chunk.css.map": "/react-portfolio/static/css/main.11181eaf.chunk.css.map",
+    "static/js/2.35eba216.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.35eba216.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.PNG": "/react-portfolio/static/media/BudgetTracker.8d285cf7.PNG",
     "static/media/Employee-Tracker.PNG": "/react-portfolio/static/media/Employee-Tracker.12e33c35.PNG",
     "static/media/EmployeeDirectory.PNG": "/react-portfolio/static/media/EmployeeDirectory.5e933b83.PNG",
     "static/media/Fitness.PNG": "/react-portfolio/static/media/Fitness.2ad45c6a.PNG",
-    "static/media/styles.css": "/react-portfolio/static/media/star-wars-backgrounds-26.f4d9e84b.png",
+    "static/media/styles.css": "/react-portfolio/static/media/LogoBlck.9a8afec0.png",
     "static/media/ProfilePic.png": "/react-portfolio/static/media/ProfilePic.8ecb989a.png",
     "static/media/Template.PNG": "/react-portfolio/static/media/Template.da2c6f6e.PNG",
     "static/media/css-logo.png": "/react-portfolio/static/media/css-logo.1f851630.png",
@@ -27,12 +27,13 @@
     "static/media/mtlogoWht.png": "/react-portfolio/static/media/mtlogoWht.873cf7a1.png",
     "static/media/mysql-logo.png": "/react-portfolio/static/media/mysql-logo.e91ce939.png",
     "static/media/nodejs-logo.png": "/react-portfolio/static/media/nodejs-logo.90a7a88d.png",
+    "static/media/star-wars-backgrounds-26.png": "/react-portfolio/static/media/star-wars-backgrounds-26.f4d9e84b.png",
     "static/media/weatherDash.PNG": "/react-portfolio/static/media/weatherDash.d5a5382e.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.8a7d631b.js",
-    "static/js/2.42a32663.chunk.js",
-    "static/css/main.177914d0.chunk.css",
-    "static/js/main.57f95f9a.chunk.js"
+    "static/js/2.35eba216.chunk.js",
+    "static/css/main.11181eaf.chunk.css",
+    "static/js/main.03dce7cd.chunk.js"
   ]
 }
