@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e0640202bb78f64b5660d6a3e8c2a9d",
+    "revision": "dc61160bab780fe6ab8d68a4b68971c0",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "23d91db66397f8375bf7",
-    "url": "/react-portfolio/static/css/main.11181eaf.chunk.css"
+    "revision": "91237dd5759a4231ebc2",
+    "url": "/react-portfolio/static/css/main.a3415dfc.chunk.css"
   },
   {
-    "revision": "90b37723da912b90c31d",
-    "url": "/react-portfolio/static/js/2.12293268.chunk.js"
+    "revision": "d4da2d88b0814279bfd7",
+    "url": "/react-portfolio/static/js/2.42a32663.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-portfolio/static/js/2.12293268.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.42a32663.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23d91db66397f8375bf7",
-    "url": "/react-portfolio/static/js/main.e5faabfb.chunk.js"
+    "revision": "91237dd5759a4231ebc2",
+    "url": "/react-portfolio/static/js/main.f30e9c57.chunk.js"
   },
   {
     "revision": "0346f5e54be923396aed",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90a7a88d73315e97644e9e0f00c67461",
     "url": "/react-portfolio/static/media/nodejs-logo.90a7a88d.png"
+  },
+  {
+    "revision": "f4d9e84b510f132f4cdc9d6515ec8195",
+    "url": "/react-portfolio/static/media/star-wars-backgrounds-26.f4d9e84b.png"
   },
   {
     "revision": "d5a5382efdf3d74558b28f071d788448",
