@@ -3,7 +3,7 @@ import Tilt from 'react-parallax-tilt'
 
 export default function Navbar() {
     return (
-        <nav className="container-fluid navbarCustom">
+        <nav className="container-fluid bg-black navbarCustom">
             <div className="row">
                     <header className="col-md-3 nosifer text-center pt-2 pb-1 bg-white">
                         <p title="I love webdev!" className="h3 pt-2">
