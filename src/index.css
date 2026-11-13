@@ -363,6 +363,10 @@ a.project-card:hover {
   border: 0;
 }
 
+.turnstile {
+  min-height: 65px;
+}
+
 .form-status {
   margin: 0;
   font-size: 0.95rem;
