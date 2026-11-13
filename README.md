@@ -3,7 +3,7 @@
 
 ![GitHub](https://img.shields.io/github/repo-size/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/license/MarcusTravis/react-portfolio?style=plastic) ![GitHub](https://img.shields.io/github/followers/MarcusTravis?style=social)
 
-## Deloyed Portfolio: https://marcustravis.github.io/react-portfolio/
+**Live site:** [https://marcustravis.com](https://marcustravis.com)
 
 ## Table of Contents
 
