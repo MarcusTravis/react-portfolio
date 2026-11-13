@@ -1,59 +1,20 @@
-import React from 'react';
-import About from '../About/index.js';
-import Portfolio from '../Portfolio';
-import PortfolioHeader from '../PortfolioHeader';
-import Contact from '../Contact';
-import Footer from '../Footer';
-import './styles.css';
-
-import Navbar from '../Navbar';
+import React from "react";
+import Navbar from "../Navbar";
+import About from "../About";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 export default function Main() {
-    return (
-        <div className="container-fluid parallax p-0 m-0">
-            <Navbar/>
-            <About/>
-            <PortfolioHeader />
-            <Portfolio />
-            <Contact/>
-            <Footer/>
-        </div>
-    )
+  return (
+    <div id="top">
+      <Navbar />
+      <main id="main">
+        <About />
+        <Portfolio />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
-
-// import ReactParticles from 'react-particles-js';
-// import particlesConfig from './particles-config';
-
-// export default function Main() {
-//     return (
-//         <Particles>
-//                 <div className="container-fluid parallax p-0 m-0">
-//             <Navbar/>
-//                     <About />
-//                     <PortfolioHeader />
-//                     <Portfolio />
-//                     <Contact />
-//                     <Footer />
-//                 </div>
-//         </Particles>
-//     )
-// }
-
-// function Particles({ children }) {
-//     return (
-//         <div style={{ position: 'relative' }}>
-//             <ReactParticles
-//                 params={particlesConfig}
-//                 style={{
-//                     position: 'absolute',
-//                     zIndex: -1,
-//                     left: 0,
-//                     right: 0,
-//                     bottom: 0,
-//                     top: 0
-//                 }}
-//             />
-//             {children && <div style={{ position: 'relative' }}>{children}</div>}
-//         </div>
-//     );
-// }
