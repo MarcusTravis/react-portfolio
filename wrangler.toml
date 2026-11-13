@@ -1,7 +1,0 @@
-name = "marcustravis"
-pages_build_output_dir = "build"
-compatibility_date = "2026-11-12"
-
-[[send_email]]
-name = "EMAIL"
-destination_address = "mpt789@gmail.com"
