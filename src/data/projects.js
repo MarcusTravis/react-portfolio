@@ -31,6 +31,12 @@ const projects = [
     description:
       "Compare two tire sizes side by side (diameter, width, sidewall, revs per mile and speedometer error), with metric and inch-size conversions, free and ad-free.",
   },
+  {
+    name: "BIM Reference Library",
+    url: "https://bimchart.net",
+    description:
+      "A free, ad-free guide to BIM software (modeling, Revit add-ins, coordination and clash, spooling and fabrication, visualization) with cited popularity ratings.",
+  },
 ];
 
 export default projects;
