@@ -6,17 +6,21 @@ export default function About() {
     <section className="hero wrap" id="about">
       <div className="hero-grid">
         <div>
-          <p className="eyebrow">Freelance developer</p>
+          <p className="eyebrow">BIM Manager by day · web developer off the clock</p>
           <h1>I build free, ad-free tools.</h1>
           <p className="lede">
-            I&apos;m Marcus Travis, a freelance developer who designs and ships
-            useful sites with no annoying ads. The tools below are live,
-            independently useful, and free to use. If you want something like
-            that built for you, I&apos;d like to hear from you.
+            I&apos;m Marcus Travis. By day I&apos;m a BIM Manager in
+            construction, after starting out as a pipefitter and orbital
+            welder. On evenings and weekends I build fast, useful websites
+            with no annoying ads. The tools below are free to use.
+          </p>
+          <p className="credential">
+            Full Stack Web Development certificate, University of Arizona
+            (2020).
           </p>
           <div className="actions">
             <a className="btn btn-primary" href="#hire">
-              Hire me
+              Work with me
             </a>
             <a className="btn btn-ghost" href="#projects">
               See my tools

@@ -32,10 +32,10 @@ export default function Contact() {
     <section className="section" id="hire">
       <div className="wrap hire-grid">
         <div className="contact-copy">
-          <h2>Hire / Contact</h2>
+          <h2>Work with me</h2>
           <p>
-            Looking for a freelance developer to build a focused, ad-free tool
-            or site? Email me, use the form, or find me on GitHub and LinkedIn.
+            I take on a small number of web projects on my own time, outside
+            work hours. Email me, use the form, or connect on LinkedIn.
           </p>
           <ul className="contact-list">
             <li>

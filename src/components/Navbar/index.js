@@ -21,7 +21,7 @@ export default function Navbar() {
           </li>
           <li>
             <a className="hire-link" href="#hire">
-              Hire
+              Contact
             </a>
           </li>
         </ul>

@@ -177,10 +177,16 @@ h2 {
 }
 
 .lede {
-  margin: 1.15rem 0 1.7rem;
+  margin: 1.15rem 0 0.7rem;
   color: var(--muted);
   font-size: 1.15rem;
   max-width: 38rem;
+}
+
+.credential {
+  margin: 0 0 1.7rem;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .actions {
